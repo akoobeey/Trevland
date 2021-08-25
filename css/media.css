@@ -1,0 +1,203 @@
+@media(max-width: 1524px){
+    *{
+        stroke-width: unset;
+    }
+    .button{
+        animation: none
+    }
+    .button:hover{
+        transform: none;
+    }
+    .footer__button{
+        animation: none;
+    }
+    .statess__content{
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+}
+@media(max-width: 1323px){
+    .central__content{
+        justify-content: space-evenly;
+        
+        
+    }
+    .cities__block{
+       
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 1139px){
+    .header__title{
+        font-size: 30px;
+    }
+    .city__infomation-content{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+@media(max-width: 902px){
+    .footer__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media(max-width: 834px){
+    .header__content{
+        justify-content: space-evenly;
+    }
+    .footer__content{
+        justify-content: space-evenly;
+    }
+    .header{
+        min-height: 900px;
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width: 737px){
+    .information__text{
+        font-size: 15px;
+        width: 400px;
+    }
+    .infor__mail{
+        font-size: 16px;
+    }
+    .infor__right-text{
+        font-size: 15px;
+        
+    }
+    .title{
+        font-size: 35px;
+        
+    }
+    .text{
+        font-size: 15px;
+        width: 500px;
+    }
+    .cities__block{
+        font-size: 15px;
+    }
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    
+}
+@media(max-width: 660px){
+    .trevland__title{
+        margin-bottom: 10px;
+    }
+    .header__list{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 560px){
+    .header__title{
+        font-size: 25px;
+    }
+    .header__text{
+        font-size: 15px;
+        width: 313px;
+    }
+    .footer__title{
+        font-size: 18px;
+    }
+    .footer__text{
+        font-size: 14px;
+    }
+    .footer__mail{
+        font-size: 14px;
+    }
+    .footer__link{
+        font-size: 14px;
+    }
+    .SUBSCRIBE{
+        font-size: 15px;
+    }
+    .header__link{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .text{
+        font-size: 13px;
+        width: 250px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .city__information-img{
+        display: block;
+        margin: 0 auto;
+        
+       width: 75%;
+       margin-bottom: 20px;
+    }
+    .information__title{
+        font-size: 15px;
+        text-align: center;
+    }
+    .information__text{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    .infor__mail{
+        display: block;
+        margin: auto;
+    }
+}
+@media(max-width: 420px){
+    .statess__img{
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .infor__right__img{
+        width: 75%;
+    }
+    .information__right-item{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .infor__mail{
+        text-align: center;
+    }
+}
+@media(max-width: 367px){
+  
+    .footer__content{
+        padding-top: 0;
+        flex-wrap: wrap;
+       flex-direction: column;
+       align-items: center;  
+    }
+    .links{
+        margin-bottom: 2px;
+    }
+    .footer__title{
+        margin-bottom: 0;
+    }
+    
+    
+    
+    .footer__input{
+        width: 100px;
+        
+    }
+    .footer__button{
+        width: 80px;
+    }
+    .footer__right-item{
+        margin-top: 0;
+        flex-wrap: wrap;
+        
+    }
+}
